@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Project Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- <<<<<<<<<==== Header Section ====>>>>>>>>> -->
+    <header>
+        <div class="header-section">
+            <a href="#">
+                <img class="logo" src="https://deepthought.education/assets/images/logo/logo.svg" alt="Logo">
+            </a>
+
+            <div class="icons">
+                <a class="home" href="#">
+                    <img class="icon" src="/img/home.svg" alt="Home">
+                </a>
+                <a class="edit" href="#">
+                    <img class="icon" src="/img/edit.svg" alt="edit">
+                </a>
+                <a class="bell notif-icon-cont" href="#">
+                    <img class="icon" src="/img/bell.svg" alt="bell">
+                    <img class="red-dot" src="/img/reddot.svg" alt="dot">
+                </a>
+                <a class="profile" href="#">
+                    <img class="icon" src="/img/profile.svg" alt="profile">
+                </a>
+                <span class="hamburger">
+                    <a href="#">
+                        <img src="/img/dot.svg" alt="menu">
+                        <img src="/img/dot.svg" alt="menu">
+                        <img src="/img/dot.svg" alt="menu">
+                    </a>
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- <<<<<<<<<==== Left Section ====>>>>>>>>> -->
+    <div id="left-bar">
+        <div class="left-topbar">
+            <img id="leftBarArrow" src="/img/arrow.svg" alt="->">
+        </div>
+
+        <div class="content-box-leftBar">
+            <div class="one-box">
+                <p>1</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- <<<<<<<<<==== Right Section ====>>>>>>>>> -->
+    <div class="right-bar">
+        <div class="left-part-of-right">
+            <span class="cross">
+                <img src="/img/cross.svg" alt="close">
+
+            </span>
+            <p>N o t i c e</p>
+            <p>B o a r d</p>
+        </div>
+
+
+    </div>
+
+    <div class="main">
+        <!-- <<<<<<<<<==== Main Heading ====>>>>>>>>> -->
+        <div class="top-heading">
+            <h1 id="project-title"></h1>
+            <button class="submit-btn">Submit Task</button>
+        </div>
+
+        <!-- <<<<<<<<<==== Main top Description ====>>>>>>>>> -->
+        <section id="description-section">
+            <h2>Explore the world of management</h2>
+            <p id="project-description"></p>
+        </section>
+
+        <!-- <<<<<<<<<==== Main Card Section ====>>>>>>>>> -->
+        <div class="card-container">
+            <!-- Card 1: Video -->
+            <div class="cards">
+                <div class="top-card">
+                    <h3>Technical Project Management</h3>
+                    <img src="/img/info.svg" alt="info">
+                </div>
+                <div class="bottom-card">
+                    <p id="TechnicalProjectManagement" class="para"></p>
+                    <iframe id="video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Card 2: Threadbuild -->
+            <div class="cards">
+                <div class="top-card">
+                    <h3>Threadbuild</h3>
+                    <img src="/img/info.svg" alt="info">
+                </div>
+                <div class="description">
+                    <p id="threadbuilder" class="para"></p>
+                </div>
+
+                <div class="thread-heading">
+                    <img src="/img/upArrow.svg" alt="click">
+                    <h3>Thread A</h3>
+                </div>
+
+                <div class="threads">
+                    <div class="thread-cont">
+                        <label for="subThread1">Sub Thread 1</label>
+                        <input id="subThread1" type="text" placeholder="Enter Text Here">
+                    </div>
+
+                    <div class="thread-cont">
+                        <label for="subThread1">Sub Interpretation 1</label>
+                        <input id="subThread1" type="text" placeholder="Enter Text Here">
+                    </div>
+                </div>
+
+                <div class="icons-and-dropdowns">
+                    <div class="icon-dropdown-cont">
+                        <img src="/img/threadIcons.svg" alt="click">
+
+                        <span>
+                            <h5>Select Categ</h5>
+                            <img src="/img/downArrow.svg" alt="">
+                        </span>
+                        <span>
+                            <h5>Select Proces</h5>
+                            <img src="/img/downArrow.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+
+                <div class="addThread">
+                    <button class="add-thread-btn"> <span> + </span> Sub-thread</button>
+                </div>
+
+                <div class="thread-summary-cont">
+                    <div class="thread-summary">
+                        <label for="summaryThreadA">Summary for Thread A</label>
+                        <input id="summaryThreadA" type="text" placeholder="Enter Text Here">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Structure your Pointers -->
+            <div class="cards">
+                <div class="top-card">
+                    <h3>Structure your Pointers</h3>
+                    <img src="/img/info.svg" alt="info">
+                </div>
+                <p id="StructureYouPointers" class="para"></p>
+                <div class="card3-bottom">
+                    <span class="titlePart">
+                        <label for="title">Title</label>
+                        <input type="text" id="title">
+                    </span>
+
+                    <span class="contentPart">
+                        <label for="content">Content</label>
+                        <div class="task-bar">
+                            <div class="topOfBar">
+                                <ul>
+                                    <li>File</li>
+                                    <li>Edit</li>
+                                    <li>View</li>
+                                    <li>Insert</li>
+                                    <li>Format</li>
+                                    <li>Tools</li>
+                                    <li>Table</li>
+                                    <li>Help</li>
+                                </ul>
+                            </div>
+
+                            <div class="bottomOfBar">
+                                <img src="/img/arrow-curve-left-right.svg" alt="Redo">
+                                <img src="/img/arrow-curve-left-down.svg" alt="Undo">
+                                <img src="/img/arrow-expand-02.svg" alt="expand">
+
+                                <input type="text" placeholder="Paragraph">
+
+                                <span class="moreOpt">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="work-bar">
+
+                        </div>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Card 4: 4SA Method -->
+            <div class="cards">
+                <div class="top-card">
+                    <h3>4SA Method</h3>
+                    <img src="/img/info.svg" alt="info">
+                </div>
+                <div class="card4-desc">
+                    <p id="Method" class="para"></p>
+                </div>
+
+                <div class="card4-bottom">
+                    <div class="introduction">
+                        <img src="/img/upArrow.svg" alt="click">
+                        <h3>Introduction </h3>
+                    </div>
+
+                    <div class="intro-smalDesc">
+                        <p>The 4SA Method , How to bring a idea into progress ?</p>
+                        <div class="seeMoreBtn">See More</div>
+                    </div>
+
+                    <div class="card4-thread">
+                        <img src="/img/upArrow.svg" alt="click">
+                        <h3>Thread A</h3>
+                    </div>
+
+                    <div class="threadA-desc">
+                        <p>How are you going to develop your stratergy ? Which method are you going to use to develop a
+                            stratergy ? What if the project is lengthy?</p>
+                        <div class="seeMoreBtn">See More</div>
+                    </div>
+
+                    <div class="example">
+                        <h3>Example 1</h3>
+                    </div>
+                    <div class="example-desc">
+                        <p>You have a concept , How will you put into progress?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bottom-right-buttons">
+            <div class="mainBtnCont">
+                <div>
+                    <img src="/img/question-mark (2) 1.svg" alt="?">
+                </div>
+                <div>
+                    <img src="/img/meeting 1.svg" alt="Meet">
+                </div>
+                <div>
+                    <img src="/img/schedule (1) 1.svg" alt="Set">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
